@@ -22,17 +22,30 @@ nav {
 }
 
 a,
-.hero > p {
+.hero .herotext > p {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
 }
 
 .hero {
+    display: flex;
+    justify-content: space-around;
     background-color: #1F2937;
 }
 
-.hero > h1 {
+.hero .herotext > h1 {
     font-size: 48px;
     color: #f9faf8;
 }
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    color: #e5e7eb;
+}
+
