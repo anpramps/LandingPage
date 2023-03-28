@@ -66,3 +66,45 @@ button {
     color: #e5e7eb;
 }
 
+.content {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.content > h2 {
+    text-align: center;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    border: 5px solid rgb(0, 132, 255);
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.section {
+    text-align: center;
+    max-width: 150px;
+}
+
+.section > p {
+    margin-top: 10px;
+}
+
+footer {
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 40px;
+}
+
