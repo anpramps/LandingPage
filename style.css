@@ -31,12 +31,29 @@ a,
 .hero {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #1F2937;
+    height: 400px;
 }
 
 .hero .herotext > h1 {
     font-size: 48px;
     color: #f9faf8;
+}
+
+.herotext {
+    max-width: 450px;
+}
+
+button {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
 }
 
 .image {
